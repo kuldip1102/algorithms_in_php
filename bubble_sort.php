@@ -4769,7 +4769,6 @@ $insertion = [5,1,8,7,3,2,11,20,6];
 	
 
 for ($i=0; $i < $n - 1 ; $i++) { 
-		$swap = TRUE;
 
 		for ($j=0; $j < $n -1 ; $j++) { 
 
@@ -4777,7 +4776,6 @@ for ($i=0; $i < $n - 1 ; $i++) {
 
 				list($bubble[$j],$bubble[$j+1]) = array($bubble[$j+1],$bubble[$j]);
 			
-				$swap = TRUE;
 			}
 		}
 	}
@@ -4785,28 +4783,5 @@ for ($i=0; $i < $n - 1 ; $i++) {
 foreach ($bubble as $value) {
 	echo $value."<br>";
 }
-
-
-
-
-
-	// for ($i=0; $i < $total ; $i++) { 
-		
-	// 	for ($j=1; $j < $total-1 ; $j++) { 
-			
-	// 		if ($a < $b) {
-	// 			$i++;
-	// 			$j++;
-	// 		}else{
-	// 			swap($d,$f);
-	// 			// echo $d = $bubble[$i];
-	// 			// echo $f = $bubble[$j];
-	// 			// echo "<br>";
-	// 		}
-
-	// 	}
-	// }
-
-
 
 ?>
